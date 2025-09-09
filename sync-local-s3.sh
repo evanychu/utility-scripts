@@ -47,5 +47,6 @@ fi
 Param="--delete"
 echo "Press ENTER to synchronize ${SrcDir} to ${S3Url} with parameter ${Param}"
 read
+set -x # Enable command echo for debugging.
 aws s3 sync $SrcDir $S3Url $Param
 aws s3 ls $S3Url --summarize --human-readable --recursive | tail -n 10
