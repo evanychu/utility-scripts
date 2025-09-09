@@ -1,3 +1,3 @@
 # Utility Scripts
 
-These are utility scripts for maintaining my personal computer
+These are utility scripts for maintaining my personal computer.
